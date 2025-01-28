@@ -30,5 +30,22 @@ public class Aula04Operadores {
         float ValuePlaystation = 5000F;
         boolean isPlaystationFivePurchasable = TotalCurrentAccountValue > ValuePlaystation || TotalValueSavingsAccount > ValuePlaystation;
         System.out.println("isPlaystationFivePurchasable "+isPlaystationFivePurchasable );
+        /* Operadores de atribuição
+        = += -= /= %=
+         */
+        double bonus = 1000;
+        bonus += 1000;
+        bonus -= 260;
+        bonus *= 5;
+        bonus /= 2;
+        System.out.println(bonus);
+        // ++ --
+        int cont = 0;
+        cont += 1;
+        cont++;
+        cont--;
+        ++cont;
+        int cont2 = 0;
+        System.out.println(cont2++);
     }
 }
